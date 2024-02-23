@@ -89,3 +89,25 @@ console.log(pratikshaNew);
 console.log(`String with
 multiple
 lines`);
+
+//Equality operators (== , ===)
+
+x = 18;
+if (x === 19) {
+  // === is the strict equality operators -The strict equality operator checks both the value and the data type of the operands
+  console.log("You can drive");
+} else {
+  console.log("You cant drive");
+}
+
+//------------------------------------------------------------------------
+let num1 = 5;
+let num2 = "5";
+
+console.log(num1 === num2); //getting false because different data types
+//----------------------------------------------------------------------
+
+let num3 = 5; // == Loose equality - The loose equality operator only checks the value of the operands
+let num4 = "5";
+
+console.log(num1 == num2); // getting true because value is the same after type conversion

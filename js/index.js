@@ -106,3 +106,39 @@ switch (expr) {
 //----------------------------------------------------------------------------
 
 //Type conversion
+
+//There are two types of type conversion in javascript
+
+//1.Implicit type conversion (automatic)
+
+let num = 10;
+let str = "5";
+
+let result = num + str;
+console.log(result);
+
+//2.Explicit type conversion (manual)
+
+//a.String to Number
+
+let stri = "123";
+let numi = Number(stri);
+console.log(numi);
+
+//b.Number to String
+
+let numb = 456;
+let strin = String(numb);
+console.log(strin);
+
+//c.Boolean to Number
+
+let bool = true;
+let numbe = Number(bool);
+console.log(numbe);
+
+//d.String to Boolean
+
+let string = true;
+let boolean = Boolean(string);
+console.log(boolean);
