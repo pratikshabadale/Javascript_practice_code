@@ -9,7 +9,17 @@
 
   <body>
     <h1>Javascript Demos</h1>
-    <script src="js/script.js"></script>
+
+    <div class="parentDiv">
+      <div class="childDiv"></div>
+    </div>
+
+    <div class="parentDiv" onclick="parentCall()">
+      <div class="childDiv" onclick="childCall()"></div>
+    </div>
+
+    <!-- <script src="js/script.js"></script> -->
     <!-- <script src="js/index.js"></script> -->
+    <script src="js/event.js"></script>
   </body>
 </html>
